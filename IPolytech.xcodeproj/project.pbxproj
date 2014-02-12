@@ -15,13 +15,22 @@
 		AA9A36BC18ABBA8E00EB4226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36BB18ABBA8E00EB4226 /* AppDelegate.m */; };
 		AA9A36BF18ABBA8E00EB4226 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9A36BD18ABBA8E00EB4226 /* Main_iPhone.storyboard */; };
 		AA9A36C218ABBA8E00EB4226 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9A36C018ABBA8E00EB4226 /* Main_iPad.storyboard */; };
-		AA9A36C518ABBA8E00EB4226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36C418ABBA8E00EB4226 /* ViewController.m */; };
 		AA9A36C718ABBA8E00EB4226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9A36C618ABBA8E00EB4226 /* Images.xcassets */; };
 		AA9A36CE18ABBA8E00EB4226 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A36CD18ABBA8E00EB4226 /* XCTest.framework */; };
 		AA9A36CF18ABBA8E00EB4226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A36AB18ABBA8E00EB4226 /* Foundation.framework */; };
 		AA9A36D018ABBA8E00EB4226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A36AF18ABBA8E00EB4226 /* UIKit.framework */; };
 		AA9A36D818ABBA8E00EB4226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA9A36D618ABBA8E00EB4226 /* InfoPlist.strings */; };
 		AA9A36DA18ABBA8E00EB4226 /* IPolytechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36D918ABBA8E00EB4226 /* IPolytechTests.m */; };
+		AA9A36EE18ABBB5C00EB4226 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36E518ABBB5C00EB4226 /* Document.m */; };
+		AA9A36EF18ABBB5C00EB4226 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36E518ABBB5C00EB4226 /* Document.m */; };
+		AA9A36F018ABBB5C00EB4226 /* Domain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36E718ABBB5C00EB4226 /* Domain.m */; };
+		AA9A36F118ABBB5C00EB4226 /* Domain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36E718ABBB5C00EB4226 /* Domain.m */; };
+		AA9A36F218ABBB5C00EB4226 /* File_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36E918ABBB5C00EB4226 /* File_Document.m */; };
+		AA9A36F318ABBB5C00EB4226 /* File_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36E918ABBB5C00EB4226 /* File_Document.m */; };
+		AA9A36F418ABBB5C00EB4226 /* Link_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36EB18ABBB5C00EB4226 /* Link_Document.m */; };
+		AA9A36F518ABBB5C00EB4226 /* Link_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36EB18ABBB5C00EB4226 /* Link_Document.m */; };
+		AA9A36F618ABBB5C00EB4226 /* Picture_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36ED18ABBB5C00EB4226 /* Picture_Document.m */; };
+		AA9A36F718ABBB5C00EB4226 /* Picture_Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A36ED18ABBB5C00EB4226 /* Picture_Document.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +56,22 @@
 		AA9A36BB18ABBA8E00EB4226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA9A36BE18ABBA8E00EB4226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		AA9A36C118ABBA8E00EB4226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		AA9A36C318ABBA8E00EB4226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA9A36C418ABBA8E00EB4226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA9A36C618ABBA8E00EB4226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA9A36CC18ABBA8E00EB4226 /* IPolytechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPolytechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9A36CD18ABBA8E00EB4226 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AA9A36D518ABBA8E00EB4226 /* IPolytechTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPolytechTests-Info.plist"; sourceTree = "<group>"; };
 		AA9A36D718ABBA8E00EB4226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA9A36D918ABBA8E00EB4226 /* IPolytechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPolytechTests.m; sourceTree = "<group>"; };
+		AA9A36E418ABBB5C00EB4226 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Document.h; path = ../../files/Document.h; sourceTree = "<group>"; };
+		AA9A36E518ABBB5C00EB4226 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Document.m; path = ../../files/Document.m; sourceTree = "<group>"; };
+		AA9A36E618ABBB5C00EB4226 /* Domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Domain.h; path = ../../files/Domain.h; sourceTree = "<group>"; };
+		AA9A36E718ABBB5C00EB4226 /* Domain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Domain.m; path = ../../files/Domain.m; sourceTree = "<group>"; };
+		AA9A36E818ABBB5C00EB4226 /* File_Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = File_Document.h; path = ../../files/File_Document.h; sourceTree = "<group>"; };
+		AA9A36E918ABBB5C00EB4226 /* File_Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = File_Document.m; path = ../../files/File_Document.m; sourceTree = "<group>"; };
+		AA9A36EA18ABBB5C00EB4226 /* Link_Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Link_Document.h; path = ../../files/Link_Document.h; sourceTree = "<group>"; };
+		AA9A36EB18ABBB5C00EB4226 /* Link_Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Link_Document.m; path = ../../files/Link_Document.m; sourceTree = "<group>"; };
+		AA9A36EC18ABBB5C00EB4226 /* Picture_Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Picture_Document.h; path = ../../files/Picture_Document.h; sourceTree = "<group>"; };
+		AA9A36ED18ABBB5C00EB4226 /* Picture_Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Picture_Document.m; path = ../../files/Picture_Document.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +131,11 @@
 		AA9A36B118ABBA8E00EB4226 /* IPolytech */ = {
 			isa = PBXGroup;
 			children = (
+				AA9A36E318ABBB4C00EB4226 /* BusinessLogic */,
 				AA9A36BA18ABBA8E00EB4226 /* AppDelegate.h */,
 				AA9A36BB18ABBA8E00EB4226 /* AppDelegate.m */,
 				AA9A36BD18ABBA8E00EB4226 /* Main_iPhone.storyboard */,
 				AA9A36C018ABBA8E00EB4226 /* Main_iPad.storyboard */,
-				AA9A36C318ABBA8E00EB4226 /* ViewController.h */,
-				AA9A36C418ABBA8E00EB4226 /* ViewController.m */,
 				AA9A36C618ABBA8E00EB4226 /* Images.xcassets */,
 				AA9A36B218ABBA8E00EB4226 /* Supporting Files */,
 			);
@@ -153,6 +169,23 @@
 				AA9A36D618ABBA8E00EB4226 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA9A36E318ABBB4C00EB4226 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				AA9A36E418ABBB5C00EB4226 /* Document.h */,
+				AA9A36E518ABBB5C00EB4226 /* Document.m */,
+				AA9A36E618ABBB5C00EB4226 /* Domain.h */,
+				AA9A36E718ABBB5C00EB4226 /* Domain.m */,
+				AA9A36E818ABBB5C00EB4226 /* File_Document.h */,
+				AA9A36E918ABBB5C00EB4226 /* File_Document.m */,
+				AA9A36EA18ABBB5C00EB4226 /* Link_Document.h */,
+				AA9A36EB18ABBB5C00EB4226 /* Link_Document.m */,
+				AA9A36EC18ABBB5C00EB4226 /* Picture_Document.h */,
+				AA9A36ED18ABBB5C00EB4226 /* Picture_Document.m */,
+			);
+			name = BusinessLogic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9A36C518ABBA8E00EB4226 /* ViewController.m in Sources */,
+				AA9A36EE18ABBB5C00EB4226 /* Document.m in Sources */,
+				AA9A36F418ABBB5C00EB4226 /* Link_Document.m in Sources */,
+				AA9A36F018ABBB5C00EB4226 /* Domain.m in Sources */,
 				AA9A36BC18ABBA8E00EB4226 /* AppDelegate.m in Sources */,
+				AA9A36F218ABBB5C00EB4226 /* File_Document.m in Sources */,
 				AA9A36B818ABBA8E00EB4226 /* main.m in Sources */,
+				AA9A36F618ABBB5C00EB4226 /* Picture_Document.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9A36F318ABBB5C00EB4226 /* File_Document.m in Sources */,
+				AA9A36F118ABBB5C00EB4226 /* Domain.m in Sources */,
+				AA9A36F518ABBB5C00EB4226 /* Link_Document.m in Sources */,
+				AA9A36F718ABBB5C00EB4226 /* Picture_Document.m in Sources */,
+				AA9A36EF18ABBB5C00EB4226 /* Document.m in Sources */,
 				AA9A36DA18ABBA8E00EB4226 /* IPolytechTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
